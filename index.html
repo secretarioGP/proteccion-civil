@@ -398,7 +398,7 @@ function renderInicio(){
   <div class="otras">
     <a class="door otra evac" href="evacuacion.html"><span class="ico">${icon.evac}</span><span class="stack" style="gap:6px"><span class="tag">Plan de Autoprotección del centro</span><h2>Plan de evacuación y emergencia →</h2><p>Vídeo del plan, qué hace cada uno al sonar la alarma, planos para dibujar la ruta, puntos de encuentro y cartel de responsables del aula.</p></span></a>
   </div>
-  <section class="stack" style="gap:12px"><h2>Las cuatro sesiones</h2>
+  <section class="stack" style="gap:12px"><h2>Curso de Protección Civil</h2>
   <div class="sesgrid">${[1,2,3,4].map(n=>`<div class="ses"><img src="${slideSrc(n,1)}" alt="" loading="lazy"><span class="n num">${n}</span><h3>${esc(MEDIA[n].titulo)}</h3></div>`).join("")}</div>
   <p class="hint">El material de las sesiones (guion, preguntas del debate, cuestionarios y rúbrica) es propio del ${esc(CONFIG.CENTRO)} y solo se muestra al profesorado con su clave.</p></section>
   </div>`;
